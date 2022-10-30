@@ -6,10 +6,10 @@ import webbrowser
 
 from .listener import getCode
 from pathlib import Path
-from typing import TypedDict, Union
+from typing import Union
 
 
-class AuthData(TypedDict):
+class AuthData:
 	token_type: str
 	expires_in: int
 	access_token: str

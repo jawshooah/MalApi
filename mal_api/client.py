@@ -15,7 +15,7 @@ from .types__client import (
 	UserData,
 	UserAnimeList,
 )
-from typing import Union, Literal
+from typing import Union
 
 
 class Client:
@@ -250,7 +250,7 @@ class Client:
 		subboardId: Union[int, None] = None,
 		limit: int = 100,
 		offset: int = 0,
-		sort: Union[Literal["recent"], None] = None,
+		sort: Union["recent", None] = None,
 		query: Union[str, None] = None,
 		topicUserName: Union[str, None] = None,
 		userName: Union[str, None] = None,
