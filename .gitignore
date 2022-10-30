@@ -4,3 +4,4 @@ tags
 build
 dist
 myanimelist_api.egg-info
+__pycache__/
