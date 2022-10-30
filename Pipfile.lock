@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "948d9af3525c3c118b8ba7cc91306c65afc98b5b3b0bfcba80d688347ae7120f"
+            "sha256": "3af7eeedc69e3a9bf89f0213a601e65a5f9fc94a81432f07874379e0b96a4f83"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -125,6 +125,10 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==2.1.1"
+        },
+        "myanimelist-api": {
+            "editable": true,
+            "path": "."
         },
         "python-dotenv": {
             "hashes": [

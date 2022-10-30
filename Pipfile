@@ -7,8 +7,12 @@ name = "pypi"
 requests = "*"
 flask = "*"
 python-dotenv = "*"
+myanimelist-api = {editable = true, path = "."}
 
 [dev-packages]
 
 [requires]
 python_version = "3.7"
+
+[scripts]
+main = "python3 ./mal_api/__main__.py"
