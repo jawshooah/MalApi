@@ -13,6 +13,3 @@ myanimelist-api = {editable = true, path = "."}
 
 [requires]
 python_version = "3.7"
-
-[scripts]
-main = "python3 ./mal_api/__main__.py"
